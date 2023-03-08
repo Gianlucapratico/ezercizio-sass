@@ -1,0 +1,35 @@
+@import "./partialts/buttons";
+@import "./partialts/colors";
+@import "./partialts/font";
+@import "./partialts/mixins";
+@import "./partialts/reset";
+@import "./partialts/spacing";
+@import "./partialts/animations";
+
+
+
+
+
+body{
+    background-color: $bg-hero;
+}
+div.floating{
+    @include floating();
+    width: fit-content;
+    display: flex;
+    justify-content: end;
+
+    
+}
+p {font-size: $x-large-font};
+
+    
+
+    
+
+    
+
+
+
+
+

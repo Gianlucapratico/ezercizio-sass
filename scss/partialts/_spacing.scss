@@ -1,0 +1,11 @@
+@for $i from 1 through 6 {
+    .padding-block-inline#{$i} {
+        padding: $i * 10px;
+    }
+}
+
+@for $i from 1 through 6 {
+    .margin-block-inline#{$i} {
+        margin: $i * 10px;
+    }
+}

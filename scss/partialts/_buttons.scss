@@ -1,0 +1,7 @@
+$buttons:(1:#0e6cff, 2:#ff8700, 3:#4caf50);
+
+@each $i,$color in $buttons{
+    .button-#{$i}{
+        color: $color;
+    }
+}
